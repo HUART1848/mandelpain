@@ -1,2 +1,0 @@
-# Mandelpain
-Le Programme
