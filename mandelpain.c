@@ -48,7 +48,7 @@ Vector2 lerpVector2(Vector2 a, Vector2 b, float t) {
 }
 
 int main(void) {
-    InitWindow(W, H, "mandelbrot");
+    InitWindow(W, H, "mandelpain");
     printf("%s", shaderSource);
     RenderTexture target = LoadRenderTexture(W, H);
     Shader shader = LoadShaderFromMemory(0, shaderSource);
