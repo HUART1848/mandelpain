@@ -14,3 +14,4 @@ It uses a simplified version of this portable [CMake template](https://github.co
 |`Q E`|Zoom-in / Zoom-out|
 |`N M`|Decrease / Increase the iteration limit|
 |`H`|Toggle informations|
+|`P`|Toggle palette|
