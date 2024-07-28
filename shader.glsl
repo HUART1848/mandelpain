@@ -31,8 +31,8 @@ vec3 rgbpalette(int i) {
 
 void main() {
     float cr = x.x + fragTexCoord.x * (x.y - x.x);
-    float ci = y.x + fragTexCoord.y * (y.y - y.x);
-
+    float ci = y.x + (1.0 - fragTexCoord.y) * (y.y - y.x);
+    
     float zr = 0.0;
     float zi = 0.0;
 
